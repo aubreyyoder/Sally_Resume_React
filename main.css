@@ -1,0 +1,61 @@
+body {
+    background-color: lightgray;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+header,
+#contact-info,
+.employment,
+.education {
+    color: navy;
+}
+
+
+header,
+#contact-info {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.personal,
+.description {
+    font-style: italic;
+}
+
+.employment {
+    color: navy;
+}
+
+.company-name {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.job-title,
+.dates,
+.description {
+    font-size: 14px;
+}
+
+.edu-list-item {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 800px) {
+    #sally-photo {
+        float: left;
+        padding-right: 20px;
+    }
+
+    #sally-photo {
+        padding-bottom: 20px;
+    }
+
+    .personal {
+        padding: 40px;
+    }
+}
